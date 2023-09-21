@@ -1,0 +1,15 @@
+@use '../variables'
+@use '../mixins'
+
+#menu
+    @include mixins.center
+    background: variables.$bg-color
+    justify-content: space-between
+    padding: 1rem 2rem
+    margin-bottom: 3rem
+    color: white
+
+.menu-navigation
+    @include mixins.center
+    list-style: none
+    gap: 3rem
