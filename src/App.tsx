@@ -9,7 +9,6 @@ function App() {
     <>
       <MenuContent />
       <div id="portfolio">
-        {/* <h1>Sedrac Lucas Calupeteca</h1> */}
         <Sidebar />
         <MainContent />
       </div>
